@@ -1,0 +1,54 @@
+    * {
+      margin: 0;
+      font-family: calibri;
+      
+    }
+    body {
+      background-color: #42445A;
+      padding-bottom: 20px;
+    }
+    .judul {
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 0px 1px 8px #000000;
+      
+      font-size: 20px;
+      
+    }
+    nav {
+      background-color: #ADAEBD;
+      padding: 10;
+      box-shadow: 0px 2px 20px black;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .cardkiri {
+      background-color: indianred;
+      box-shadow: 1px 1px 2px black;
+      border-style: solid;
+      border-radius: 10px;
+      margin: 10px;
+      display: flex;
+      align-items: flex-start;
+    }
+    .cardkanan {
+      background-color: rosybrown;
+      border-radius: 10px;
+      box-shadow: 1px 1px 2px black;
+      margin: 0;
+      padding: 20px;
+      padding-left: 5;
+    }
+    #gambar {
+      border-radius: 20px;
+      width: 70;
+      height: 70;
+      padding: 10px;
+    }
+    .copyright {
+      background-color: #ADAEBD;
+      height: 100px;
+      padding: 10px;
+    }
